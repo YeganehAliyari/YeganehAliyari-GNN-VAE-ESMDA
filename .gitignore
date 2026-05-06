@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# C/C++ build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.out
+a.out
+
+# Data, checkpoints, and generated outputs
+data/
+train/
+train_GEO/
+output*/
+*.ply
+*.weight
+*.pkl
+*.zip
